@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+.next/
+out/
+build/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# model & data (upload lewat web, bukan via git)
+backend/models_store/*.pt
+backend/state.json
+backend/datasets/
+backend/runs/
+backend/uploads/
+
+# env
+.env*
